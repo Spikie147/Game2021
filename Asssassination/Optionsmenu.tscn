@@ -17,6 +17,8 @@ font_data = SubResource( 3 )
 [node name="ColorRect" type="ColorRect"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_right = -6.0
+margin_bottom = -3.0
 color = Color( 0.25098, 0.447059, 0.580392, 1 )
 script = ExtResource( 1 )
 __meta__ = {
@@ -37,22 +39,22 @@ margin_left = 10.0
 margin_right = 147.0
 margin_bottom = 32.0
 
-[node name="CenterContainer2" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
+[node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
 margin_right = 137.0
 margin_bottom = 14.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer2"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer"]
 margin_right = 137.0
 margin_bottom = 14.0
 
-[node name="Selector" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer2/HBoxContainer"]
+[node name="Selector" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer/HBoxContainer"]
 margin_right = 9.0
 margin_bottom = 14.0
 rect_pivot_offset = Vector2( -255.724, -56.7893 )
 custom_fonts/font = SubResource( 2 )
 text = ">"
 
-[node name="Difficulty" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer2/HBoxContainer"]
+[node name="Difficulty" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer/HBoxContainer"]
 margin_left = 13.0
 margin_right = 137.0
 margin_bottom = 14.0
@@ -62,24 +64,24 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
+[node name="CenterContainer2" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
 margin_top = 18.0
 margin_right = 137.0
 margin_bottom = 32.0
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer2"]
 margin_left = 13.0
 margin_right = 124.0
 margin_bottom = 14.0
 
-[node name="Selector Two" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer/HBoxContainer2"]
+[node name="SelectorTwo" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer2/HBoxContainer2"]
 margin_right = 9.0
 margin_bottom = 14.0
 rect_pivot_offset = Vector2( -255.724, -56.7893 )
 custom_fonts/font = SubResource( 2 )
 text = ">"
 
-[node name="Window Size" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer/HBoxContainer2"]
+[node name="Window Size" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer2/HBoxContainer2"]
 margin_left = 13.0
 margin_right = 111.0
 margin_bottom = 14.0
