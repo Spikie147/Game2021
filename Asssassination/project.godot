@@ -15,11 +15,13 @@ _global_script_class_icons={
 [application]
 
 config/name="Asssassination"
+run/main_scene="res://Game/GameScreen.tscn"
 config/icon="res://icon.png"
 
 [display]
 
-window/size/height=640
+window/size/width=620
+window/size/height=480
 window/size/resizable=false
 window/stretch/aspect="expand"
 

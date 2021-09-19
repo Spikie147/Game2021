@@ -19,7 +19,8 @@ font_data = SubResource( 3 )
 [node name="ColorRect" type="ColorRect"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -6.0
+margin_left = 3.5636
+margin_right = -2.4364
 margin_bottom = -3.0
 color = Color( 0.25098, 0.447059, 0.580392, 1 )
 script = ExtResource( 1 )
@@ -30,17 +31,18 @@ __meta__ = {
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 50.0
-margin_bottom = -296.0
+margin_left = 130.071
+margin_top = 126.617
+margin_right = 52.0713
+margin_bottom = -236.383
+rect_scale = Vector2( 0.676658, 0.678181 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
-margin_left = 241.0
-margin_top = 88.0
-margin_right = 777.0
-margin_bottom = 202.0
+margin_right = 536.0
+margin_bottom = 114.0
 
 [node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
 margin_right = 536.0

@@ -1,7 +1,7 @@
 extends MarginContainer
 
-const test_scene = preload("res://GameScreen.tscn")
-const options_menu = preload("res://Optionsmenu.tscn")
+const test_scene = preload("res://Game/GameScreen.tscn")
+const options_menu = preload("res://Home Screen/Optionsmenu.tscn")
 
 onready var selector_one = $CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer/CenterContainer/HBoxContainer/Selector
 onready var selector_two = $CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer/CenterContainer2/HBoxContainer/Selector
