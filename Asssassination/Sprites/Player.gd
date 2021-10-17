@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-export(int) var speed = 80.0
+export (int) var speed = 80.0
 export (int) var jump_speed = -200
 export (int) var gravity = 900
 export (float, 0, 1.0) var friction = 0.2
@@ -23,15 +23,18 @@ func get_input():
 	if Input.is_action_pressed("ui_right"):
 		dir += 1
 		$AnimationPlayer.play("Running")
-		~$AnimationPlayer.flip_h = true
+		$AnimationPlayer.flip_z = true
 	if Input.is_action_pressed("ui_left"):
 		dir -= 1
 		$AnimationPlayer.play("Running")
-		$AnimationPlayer.flip_h = false
+		$AnimationPlayer.flip_z = false
 	if dir != 0:
 		velocity.x = lerp(velocity.x, 0, friction)
+		$AnimationPlayer.play("Running")
 	else:
 		velocity.x = lerp(velocity.x, 0, friction)
 		$AnimationPlayer.play("Idle")
+# Written the code myself, does not work as intended and have been trying to fix without help. This did not work very well. I based my code off of 
+# previous attemps and 
 
 
