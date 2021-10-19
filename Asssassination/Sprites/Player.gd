@@ -35,6 +35,6 @@ func get_input():
 		velocity.x = lerp(velocity.x, 0, friction)
 		$AnimationPlayer.play("Idle")
 # Written the code myself, does not work as intended and have been trying to fix without help. This did not work very well. I based my code off of 
-# previous attemps and 
+# previous attemps and some videos on youtube. 
 
 
