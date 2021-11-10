@@ -4,8 +4,8 @@
 [ext_resource path="res://Sprites/Player.gd" type="Script" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 7.77094
-height = 16.5941
+radius = 9.13187
+height = 15.0757
 
 [sub_resource type="Animation" id=2]
 resource_name = "Attack Melee"
@@ -146,13 +146,14 @@ position = Vector2( 309.994, 224.679 )
 texture = ExtResource( 1 )
 hframes = 12
 vframes = 11
-frame = 69
+frame = 16
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 311.536, 239.871 )
+position = Vector2( 310.741, 239.164 )
 shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+playback_speed = 1.9
 "anims/Attack Melee" = SubResource( 2 )
 anims/Idle = SubResource( 3 )
 anims/Running = SubResource( 4 )
