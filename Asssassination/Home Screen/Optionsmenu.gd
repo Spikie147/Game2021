@@ -37,3 +37,5 @@ func set_current_selection(_current_selection):
 		selector_one.text = ">"
 	elif current_selection == 1:
 		selector_two.text = ">"
+#this hunk of code is designed to allow the "animation" of the > to seem like it is moving up and down when you are...
+#pressing up and down
