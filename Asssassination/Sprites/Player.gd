@@ -6,7 +6,7 @@ export (int) var gravity = 900
 export (float, 0, 1.0) var friction = 0.2
 export (float, 0, 1.0) var acceleration = 0.25
 
-# these are the variables that are used through the code 
+# these are the variables that are used thru
 
 var velocity = Vector2.ZERO
 

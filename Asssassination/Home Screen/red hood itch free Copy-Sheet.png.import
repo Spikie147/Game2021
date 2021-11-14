@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/red hood itch free Copy-Sheet.png-c4d094e2895bb831dbdbc62cb22035c2.stex"
+path="res://.import/red hood itch free Copy-Sheet.png-d99dda36af43e27ad550fc18d806d006.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/red hood itch free Copy-Sheet.png"
-dest_files=[ "res://.import/red hood itch free Copy-Sheet.png-c4d094e2895bb831dbdbc62cb22035c2.stex" ]
+source_file="res://Home Screen/red hood itch free Copy-Sheet.png"
+dest_files=[ "res://.import/red hood itch free Copy-Sheet.png-d99dda36af43e27ad550fc18d806d006.stex" ]
 
 [params]
 
@@ -28,7 +28,6 @@ process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
-process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false
